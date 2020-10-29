@@ -1,3 +1,9 @@
-Demo of usage of ngrx/store containing actions, reducers, effects etc
-Build the applicaiton using npm install
-Launch using http://localhost:4200
+1. Demo of usage of ngrx/store containing actions, reducers, effects etc
+
+2. Build the application using npm install
+
+
+3. ng serve to run the app
+
+
+4. Launch using http://localhost:4200
