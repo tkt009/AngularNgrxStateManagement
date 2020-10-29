@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+.tabDesc{
+    color: green;
+    padding-bottom: 3em;
+}
+
+.tabContent{
+    padding: 1em;
+}
+
+.spacer-right{
+    margin-right: 1em;
+}
+
+.spacer-left{
+    margin-left: 1em;
+}
+
+.routerlinkactive{
+    color: purple;
+}
+
+.activeRoute{
+    background-color: yellow;    
+}
+
+.splDisplay{
+    color: fuchsia;
+    background: aliceblue;
+    font-size: 2em;
+}
+
+.section{
+    padding: 1em;
+    background-color: lavenderblush;
+    margin-top: 1em;
+}
+
+.sectionAbout{
+    padding: 1em;
+    background-color: bisque;
+    margin-top: 1em;
+}
