@@ -1,0 +1,27 @@
+<div class="tabContent">
+    <div class="tabDesc">
+      To see the behaviour when there is no state management
+    </div>
+    <div class="sectionAbout">
+      <div>
+          <label class="spacer-right">Enter your name</label>
+          <input type="text" [(ngModel)]="inputName"/>
+          <input type="button" class="spacer-left" (click)="saveName()" value="Submit"/>
+          <input type="button" class="spacer-left" (click)="clearName()" value="Clear"/>
+      </div>
+      <div>
+        <label> Name entered: <span class="splDisplay">{{name}}</span></label>
+      </div>
+    </div>
+    <div class="sectionAbout">
+      <div>
+        <label class="spacer-right">Counter Operations</label>
+        <input type="button" class="spacer-left" (click)="increment()" value="Increment"/>
+        <input type="button" class="spacer-left" (click)="decrement()" value="Decrement"/>
+      </div>
+      <div>
+        <label> Counter Value: <span class="splDisplay">{{counter}} </span></label>
+      </div>
+    </div>
+  </div>
+  
